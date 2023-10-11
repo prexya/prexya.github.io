@@ -1,0 +1,24 @@
+body{
+	/*background: #242d36;*/
+	/*background: #999999; */
+	/*line-height: 1.4;*/
+	padding-top: 60px; // This works regardless of display size.
+	font-family: Asap, sans-serif;
+	/*font-size: 13px;*/
+}
+
+.h2color{
+	color: #112868;
+}
+
+.anchor{
+  display: block;
+  height: 60px; /*same height as header*/
+  margin-top: -60px; /*same height as header*/
+  visibility: hidden;
+}
+
+.bottom {
+	padding-top: 50px;
+	border-bottom: 2px solid #ccc;
+}
