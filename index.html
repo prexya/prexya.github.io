@@ -14,9 +14,11 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Latest compiled and minified CSS -->
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Asap|Signika+Negative" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" /> 
 		<script src="js/jquery.min.js"></script>
   		<script src="js/popper.min.js"></script>
   		<script src="js/bootstrap.min.js"></script>
@@ -58,25 +60,36 @@
 				</div>
 				<div class="col-sm-4">
 					<br>
-					<h1 id="name">
-					Preksha Shukla
-					</h1>
+					<h1 id="name"> Preksha Shukla </h1>
 					<br>
-					<h5>
-						CS PhD Student <br>
+					<h4 id="title"> CS PhD Student</h4>
+					<h5 id="affiliation">
 						Department of Computer Science <br>
 						College of Engineering and Computing <br>
-						George Mason University <br>
-						 
+						George Mason University <br> 
 					</h5>
-					<br>
-					<div id="contact">
+					<div class="social-buttons">
+						<a href="mailto:pshukla@gmu.edu" class="social-buttons__button social-button social-button--mail" aria-label="Email">
+						  <i class="fa fa-envelope"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/preksha-shukla/" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+						  <i class="fab fa-linkedin-in"></i>
+						</a>
+						<a href="https://github.com/prexya" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+						  <i class="fab fa-github"></i>
+						</a>
+						<!-- <a href="" class="social-buttons__button social-button social-button--twitter" aria-label="ResearchGate">
+						  <i class="fab fa-researchgate"></i> -->
+						</a>
+			  
+					</div>
+					<!-- <div id="contact">
 					<p>
 						Email: <b>pshukla8 AT gmu DOT edu</b><br>
 						<a href="https://www.linkedin.com/in/preksha-shukla/" target="_blank">[Linkedin]</a>
 						<a href="https://github.com/prexya" target="_blank">[Github]</a>
 					</p>
-					</div>
+					</div> -->
 				</div>
 			
 			</div>
@@ -115,17 +128,6 @@
 					<br>
 					<p class="bottom"></p>
 				</div> -->
-				<footer>
-					<span id="updated" style="float:right"></span>
-					<script>
-    				var d = document.lastModified.split(" ")[0];
-    				document.getElementById("updated").innerHTML = "<small>Last Updated: " + d + "</small>";
-  					</script>
-  					<script>
-  						$('.mybox').more_less_button();
-  					</script>
-				</footer>
-				
 			</div>
 		</div>
 	</body>	
